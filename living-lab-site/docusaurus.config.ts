@@ -130,21 +130,37 @@ const config: Config = {
         {
           html: `
             <div style="text-align: center;">
-              <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-                <a href="https://www.vcuhealth.org/" style="display: inline-block;">
-                  <img
-                    src="/img/VCU/VCU_H_Gold lettering - 4C.png"
-                    alt="VCU Logo"
-                    style="width: 150px; height: auto;"
-                  />
-                </a>
-                <a href="https://www.nsf.gov/" style="display: inline-block;">
-                  <img
-                    src="/img/VCU/1019px-NSF_logo.png"
-                    alt="NSF Logo"
-                    style="width: 130px; height: auto;"
-                  />
-                </a>
+              links: [
+  {
+    html: `
+      <div style="text-align: center;">
+        <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+          <a href="https://www.vcuhealth.org/" style="display: inline-block;">
+            <img
+              src="/img/VCU/vcuhealth-logo.png"
+              alt="VCU Health Logo"
+              style="width: 150px; height: auto;"
+            />
+          </a>
+          <a href="https://www.nsf.gov/" style="display: inline-block;">
+            <img
+              src="/img/VCU/1019px-NSF_logo.png"
+              alt="NSF Logo"
+              style="width: 130px; height: auto;"
+            />
+          </a>
+          <a href="https://secenter.vcu.edu/" style="display: inline-block;">
+            <img
+              src="/img/VCU/secenter-logo.png"
+              alt="SE Center Logo"
+              style="width: 150px; height: auto;"
+            />
+          </a>
+        </div>
+      </div>
+    `,
+  },
+],
               </div>
             </div>
           `,
