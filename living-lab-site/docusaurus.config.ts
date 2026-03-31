@@ -161,11 +161,7 @@ const config: Config = {
     `,
   },
 ],
-              </div>
-            </div>
-          `,
-        },
-      ],
+             
       copyright: `Copyright © ${new Date().getFullYear()} AIHealth`,
     },
     prism: {
